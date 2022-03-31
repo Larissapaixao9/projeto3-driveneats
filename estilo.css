@@ -1,0 +1,120 @@
+
+body{
+    background-color: #E5E5E5;
+   
+}
+.topo{
+    width: 100%;
+    height: 92px;
+    background-color: #CF2B2B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    line-height: 7%;
+    box-shadow: 1px 2px #cccccc
+}
+h1{
+    font-family: 'Righteous', cursive;
+    font: 400;
+    color: #FFFFFF;
+    font-size: 44px;
+    margin-left: 20px;
+    margin-top: 36px;
+}
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font:400;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.titulos-body{
+    margin-top: 120px;
+    margin-left:20px;
+}
+.titulos-body{
+    font-family: 'Righteous', cursive;
+    font: 400;
+    font-size: 26px;
+    color: #333333;
+}
+
+.pedidos{
+    display: flex;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    justify-content: space-between;
+    height: 245px;
+    /*width: 450px;*/
+    width:88%;
+
+    overflow-x: auto;
+    margin-left: 20px;
+    
+}
+.pedidos::-webkit-scrollbar{
+    display: none;}
+
+
+.prato-1{
+    height: 216px;
+    width: 100%;
+    /*border: 1px solid purple;*/
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-right: 40px;
+    padding: 10px;
+    
+}
+.prato-1> img{
+    margin-top: 10%;
+    height: 87px;
+    width: 144px;
+}
+.nome-prato{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 2px;
+}
+.descricao-prato{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 15px;
+    
+}
+.preco{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: #000000;
+}
+.bebida{
+    margin-top: 10px;
+}
+.rodape{
+    height: 92px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+.centro-rodape{
+    height: 61px;
+    width: 95%;
+    background-color: #CBCBCB;
+    margin: 20px auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.texto-rodape{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
