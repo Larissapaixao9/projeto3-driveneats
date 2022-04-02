@@ -68,7 +68,7 @@ h1{
     padding: 10px;
     box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    
+    cursor: pointer;
 }
 .prato-1> img{
     margin-top: 10%;
