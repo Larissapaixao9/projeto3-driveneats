@@ -127,13 +127,16 @@ h1{
     color: #FFFFFF;
 
 }
-.icone{
+#icone, #icone-2, #icone-3, #icone-4,#icone-5,#icone-6,#icone-7,#icone-8,#icone-9,#icone-10, #icone-11, #icone-12{
     font-size: 30px;
-    
+    border-radius: 50px;
     position: absolute;
-    left: 25%;
-    top: 45%;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: white;
 }
+
 .sobremesa4-margem{
     margin-bottom: 20%;
 }

@@ -1,6 +1,7 @@
 let i=0;
 let j=0;
 let k=0;
+let n=0;
 let total=0;
 let main;
 let drink;
@@ -12,8 +13,14 @@ function selecao1 (){
     document.getElementById("Prato2").style.borderColor="white";
     document.getElementById("Prato3").style.borderColor="white";
     document.getElementById("Prato4").style.borderColor="white";
+    //document.getElementsByClassName(".icone").style.backgroundColor="green";
+    document.getElementById("icone").style.backgroundColor="green";
+    document.getElementById("icone-2").style.backgroundColor="white";
+    document.getElementById("icone-3").style.backgroundColor="white";
+    document.getElementById("icone-4").style.backgroundColor="white";
     i=i+1;
-    main="primeiro1";
+    total=total+14.90;
+    main="Frango Yin Yang";
     }
 }
 function selecao2 (){
@@ -22,8 +29,13 @@ function selecao2 (){
     document.getElementById("primeiro1").style.borderColor="white";
     document.getElementById("Prato3").style.borderColor="white";
     document.getElementById("Prato4").style.borderColor="white";
+    document.getElementById("icone-2").style.backgroundColor="green";
+    document.getElementById("icone").style.backgroundColor="white";
+    document.getElementById("icone-3").style.backgroundColor="white";
+    document.getElementById("icone-4").style.backgroundColor="white";
+    total=total+20.00;
     i=i+1;
-    main="pPrato2";
+    main="Carne de panela";
     }
 
 }
@@ -33,8 +45,14 @@ function selecao3 (){
     document.getElementById("primeiro1").style.borderColor="white";
     document.getElementById("Prato2").style.borderColor="white";
     document.getElementById("Prato4").style.borderColor="white";
+
+    document.getElementById("icone-2").style.backgroundColor="white";
+    document.getElementById("icone").style.backgroundColor="white";
+    document.getElementById("icone-3").style.backgroundColor="green";
+    document.getElementById("icone-4").style.backgroundColor="white";
+    total=total+25.90;
     i=i+1;
-    main="Prato3";
+    main="strogonoff";
     }
 
 }
@@ -45,7 +63,13 @@ function selecao4 (){
     document.getElementById("Prato2").style.borderColor="white";
     document.getElementById("Prato3").style.borderColor="white";
     i=i+1;
-    main="Prato4";
+
+    document.getElementById("icone-2").style.backgroundColor="white";
+    document.getElementById("icone").style.backgroundColor="white";
+    document.getElementById("icone-3").style.backgroundColor="white";
+    document.getElementById("icone-4").style.backgroundColor="green";
+    total=total+9.90;
+    main="Feijoada";
     }
 }
 
@@ -55,8 +79,15 @@ function selecaobebiba1 (){
     document.getElementById("bebida2").style.borderColor="white";
     document.getElementById("bebida3").style.borderColor="white";
     document.getElementById("bebida4").style.borderColor="white";
+
+
+    document.getElementById("icone-5").style.backgroundColor="green";
+    document.getElementById("icone-6").style.backgroundColor="white";
+    document.getElementById("icone-7").style.backgroundColor="white";
+    document.getElementById("icone-8").style.backgroundColor="white";
+    total=total+4.90;
     k=k+1;
-    drink="bebida1";
+    drink="Coca-cola";
     }
 }
 function selecaobebiba2 (){
@@ -65,8 +96,14 @@ function selecaobebiba2 (){
     document.getElementById("bebida1").style.borderColor="white";
     document.getElementById("bebida3").style.borderColor="white";
     document.getElementById("bebida4").style.borderColor="white";
+
+    document.getElementById("icone-5").style.backgroundColor="white";
+    document.getElementById("icone-6").style.backgroundColor="green";
+    document.getElementById("icone-7").style.backgroundColor="white";
+    document.getElementById("icone-8").style.backgroundColor="white";
+    total=total+3.90;
     k=k+1;
-    drink="bebida2";
+    drink="Guaraná";
 }
 }
 function selecaobebiba3 (){
@@ -75,8 +112,14 @@ function selecaobebiba3 (){
     document.getElementById("bebida2").style.borderColor="white";
     document.getElementById("bebida3").style.borderColor="green";
     document.getElementById("bebida4").style.borderColor="white";
+
+    document.getElementById("icone-5").style.backgroundColor="white";
+    document.getElementById("icone-6").style.backgroundColor="white";
+    document.getElementById("icone-7").style.backgroundColor="green";
+    document.getElementById("icone-8").style.backgroundColor="white";
+    total=total+5.90;
     k=k+1;
-    drink="bebida3";
+    drink="Fanta";
 }
 }
 function selecaobebiba4 (){
@@ -85,8 +128,14 @@ function selecaobebiba4 (){
     document.getElementById("bebida2").style.borderColor="white";
     document.getElementById("bebida3").style.borderColor="white";
     document.getElementById("bebida4").style.borderColor="green";
+
+    document.getElementById("icone-5").style.backgroundColor="white";
+    document.getElementById("icone-6").style.backgroundColor="white";
+    document.getElementById("icone-7").style.backgroundColor="white";
+    document.getElementById("icone-8").style.backgroundColor="green";
+    total=total+2.90;
     k=k+1;
-    drink="bebida4";
+    drink="dolly";
 }
 }
 
@@ -96,18 +145,32 @@ function selecaosobremesa1 (){
     document.getElementById("sobremesa2").style.borderColor="white";
     document.getElementById("sobremesa3").style.borderColor="white";
     document.getElementById("sobremesa4").style.borderColor="white";
+
+ 
+    document.getElementById("icone-9").style.backgroundColor="green";
+    document.getElementById("icone-10").style.backgroundColor="white";
+    document.getElementById("icone-11").style.backgroundColor="white";
+    document.getElementById("icone-12").style.backgroundColor="white";
+    total=total+7.90;
     j=j+1;
-    desert="sobremesa1";
+    desert="pudim";
     }
 }
+
 function selecaosobremesa2 (){
     if(true){
     document.getElementById("sobremesa2").style.borderColor="green";
     document.getElementById("sobremesa1").style.borderColor="white";
     document.getElementById("sobremesa3").style.borderColor="white";
     document.getElementById("sobremesa4").style.borderColor="white";
+
+    document.getElementById("icone-9").style.backgroundColor="white";
+    document.getElementById("icone-10").style.backgroundColor="green";
+    document.getElementById("icone-11").style.backgroundColor="white";
+    document.getElementById("icone-12").style.backgroundColor="white";
+    total=total+10.90;
     j=j+1;
-    desert="sobremesa2";
+    desert="torta";
     }
 }
 function selecaosobremesa3 (){
@@ -116,28 +179,42 @@ function selecaosobremesa3 (){
     document.getElementById("sobremesa2").style.borderColor="white";
     document.getElementById("sobremesa3").style.borderColor="green";
     document.getElementById("sobremesa4").style.borderColor="white";
+
+    document.getElementById("icone-9").style.backgroundColor="white";
+    document.getElementById("icone-10").style.backgroundColor="white";
+    document.getElementById("icone-11").style.backgroundColor="green";
+    document.getElementById("icone-12").style.backgroundColor="white";
+    total=total+7.90;
     j=j+1;
-    desert="sobremesa3";
+    desert="gelatina";
     }
 }
+
 function selecaosobremesa4 (){
     if(true){
     document.getElementById("sobremesa1").style.borderColor="white";
     document.getElementById("sobremesa2").style.borderColor="white";
     document.getElementById("sobremesa3").style.borderColor="white";
     document.getElementById("sobremesa4").style.borderColor="green";
+
+    document.getElementById("icone-9").style.backgroundColor="white";
+    document.getElementById("icone-10").style.backgroundColor="white";
+    document.getElementById("icone-11").style.backgroundColor="white";
+    document.getElementById("icone-12").style.backgroundColor="green";
+    total=total+10.90;
     j=j+1;
-    desert="sobremesa4";
+    desert="sorvete";
     }
 }
 
-
 function alterarBotao (){
+    if(true){
     const elemento=document.querySelector(".texto-rodape");
     elemento.innerHTML = "Fechar pedido";
     const cor= document.querySelector(".centro-rodape");
     cor.style.backgroundColor="#32B72F";
-    
+    n=n+1;
+    }
 }
 
 function eventos(){
@@ -165,14 +242,15 @@ function contador(){
 
 function fecharPedido (){
     let mensagem;
-    
-    mensagem="Olá, gostaria de fazer o pedido: \n-Prato: Frango Yin Yang \n -Bebida: coca \n - Sobremesa: Pudim \n Total: R$ 27.70"
+    if(n==1){
+        
+    mensagem="Olá, gostaria de fazer o pedido:\n" +"\n-Prato: "+ main+ "\n-Bebida: "+drink+"\n-Sobremesa: "+desert+ "\nTotal: R$ "+total.toFixed(2);
     
     texto=window.encodeURI(mensagem);
 
-   //window.open("https://wa.me/13999999999?text=texto");
-   window.open("https://api.whatsapp.com/send?phone=" + 13999999999 + "&text=" + texto, "_blank");
-
+   //window.open("https://wa.me/48984733304?text=texto");
+   window.open("https://api.whatsapp.com/send?phone=" + 5513997513335 + "&text=" + texto, "_blank");
+    }
 }
 
 window.addEventListener("load",contador);
