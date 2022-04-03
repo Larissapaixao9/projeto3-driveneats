@@ -216,6 +216,7 @@ function alterarBotao (){
     const cor= document.querySelector(".centro-rodape");
     cor.style.backgroundColor="#32B72F";
     n=n+1;
+    
     }
 }
 
