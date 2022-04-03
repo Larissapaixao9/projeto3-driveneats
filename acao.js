@@ -6,6 +6,8 @@ let total=0;
 let main;
 let drink;
 let desert;
+let nome;
+let endereco;
 
 function selecao1 (){
     if(true){
@@ -244,12 +246,14 @@ function fecharPedido (){
     let mensagem;
     if(n==1){
         
-    mensagem="Olá, gostaria de fazer o pedido:\n" +"\n-Prato: "+ main+ "\n-Bebida: "+drink+"\n-Sobremesa: "+desert+ "\nTotal: R$ "+total.toFixed(2);
-    
-    texto=window.encodeURI(mensagem);
+        nome=(prompt("Digite seu nome"));
+        endereco=(prompt("Digite seu endereço"));
+        mensagem="Olá, gostaria de fazer o pedido:\n" +"\n-Prato: "+ main+ "\n-Bebida: "+drink+"\n-Sobremesa: "+desert+ "\nTotal: R$ "+total.toFixed(2)+"\n\nNome: "+nome+"\nEndereço: "+endereco;
+        
+        texto=window.encodeURI(mensagem);
 
-   //window.open("https://wa.me/48984733304?text=texto");
-   window.open("https://api.whatsapp.com/send?phone=" + 5513997513335 + "&text=" + texto, "_blank");
+    //window.open("https://wa.me/48984733304?text=texto");
+    window.open("https://api.whatsapp.com/send?phone=" + 5513997513335 + "&text=" + texto, "_blank");
     }
 }
 
